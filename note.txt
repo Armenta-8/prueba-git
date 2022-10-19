@@ -1,0 +1,20 @@
+git status = ver el estatus de los archivos (CRUD)
+git add . = agregar todos los cambien en los archivos (CRUD).
+git commit -m "descripción del commit" = crear commit con los cambios de los archivos 
+NOTA: es importante tomar en cuanta conventional commit
+
+TYPE COMMIT
+    FIX: aplica cuando se implementa una solucion a un bug
+    FEAT: aplica cuando hay nuava funcionalida.
+SCOPE: Es el identificador del modulo principal al cual se le esta realizando el cambio o mejora. ejemplo: modulo, vista, funcions, etc.
+DESCRIPTION: descripcion general del commit
+
+EJEMPLO:
+Estructura
+git commit -m "<TYPE COMMIT>(<SCOPE>): <DESCRIPTION>"
+
+Practico
+git commit -m "feat(note): add commans git"
+
+git push origin <nombre de la rama> =  subir los cambios a github, de acuerdo a la rama seleccionada.
+git pull origin <nombre de la rama> = descargar los cambios de github, de acurdo a la rama seleccionada.
